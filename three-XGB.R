@@ -1,4 +1,4 @@
-setwd("C:/Users/obc1/Desktop/Thesis (Readme)/Fake News Thesis/Three/")
+setwd("C:/Users/Fake News Thesis/Three")
 train <- read.csv(file="three_training.csv",header = T)
 test <- read.csv(file="three_testing.csv",header = T)
 valid <- read.csv(file="three_validating.csv",header = T)
