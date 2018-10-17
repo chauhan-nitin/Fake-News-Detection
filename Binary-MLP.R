@@ -1,6 +1,6 @@
 library(keras)
 install_keras()
-setwd("C:/Users/obc1/Desktop/Thesis (Readme)/Fake News Thesis/Binary")
+setwd("C:/Users/Fake News Thesis/Binary")
 train <- read.csv(file="binary_training.csv",header = T)
 test <- read.csv(file="binary_testing.csv",header = T)
 valid <- read.csv(file="binary_validating.csv",header = T)
