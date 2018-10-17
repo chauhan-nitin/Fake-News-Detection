@@ -1,7 +1,7 @@
 # Random Forest
 library("randomForest")
 set.seed(1234)
-setwd("C:/Users/obc1/Desktop/Thesis (Readme)/Fake News Thesis/Multinomial")
+setwd("C:/Users/Fake News Thesis/Multinomial")
 train <- read.csv(file="multi_training.csv", header=T)
 test <- read.csv(file="multi_testing.csv", header = T)
 valid <- read.csv(file="multi_validating.csv", header=T)
